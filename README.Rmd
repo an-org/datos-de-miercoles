@@ -76,7 +76,7 @@ pr_init("55_bicicletas-en-ba")
 
 --
 
-<img src="https://i.imgur.com/PVFEPNx.png" align="center" width=760/>
+<img src="https://i.imgur.com/8wjSn4d.png" align="center" width=760/>
 
 ## [\@eliocamp](https://github.com/eliocamp) (contribuidor)
 
