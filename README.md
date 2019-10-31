@@ -12,9 +12,9 @@
 
 
 
-## [Ejemplo](https://github.com/cienciadedatos/datos-de-miercoles/pull/58)
+## Ejemplo: Contribuyendo a [cienciadedatos/datos-de-miercoles](https://github.com/cienciadedatos/datos-de-miercoles/pull/58)
 
-Demuestro una versión simplificada de [cienciadedatos/datos-de-miercoles/pull/58](https://github.com/cienciadedatos/datos-de-miercoles/pull/58), de [\@eliocamp](https://github.com/eliocamp) (contribuidor) y [\@rivaquiroga](https://github.com/rivaquiroga) (administradora).
+Simulo la contribucion (simplificada) de [Bicicletas de Buenos Aires (#58)](https://github.com/cienciadedatos/datos-de-miercoles/pull/58) de [\@eliocamp](https://github.com/eliocamp), administrada por [\@rivaquiroga](https://github.com/rivaquiroga).
 
 ![](https://i.imgur.com/74axHZu.png)
 
