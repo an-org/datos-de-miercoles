@@ -3,12 +3,6 @@
 
 [\@mauro_lepore](https://twitter.com/mauro_lepore)
 
-
-
-## [Resumen](https://twitter.com/lorenzwalthert/status/1188932430171983873?s=20)
-
-![](https://i.imgur.com/jTXUIpL.png)
-
 ## Ejemplo: Contribuyendo a [cienciadedatos/datos-de-miercoles](https://github.com/cienciadedatos/datos-de-miercoles/pull/58)
 
 Simulo la contribucion (simplificada) de [Bicicletas de Buenos Aires (#58)](https://github.com/cienciadedatos/datos-de-miercoles/pull/58) de [\@eliocamp](https://github.com/eliocamp), administrada por [\@rivaquiroga](https://github.com/rivaquiroga).
@@ -17,7 +11,17 @@ Simulo la contribucion (simplificada) de [Bicicletas de Buenos Aires (#58)](http
 
 
 
-### Elio (contribuidor)
+TODO: 
+
+* Add links to an-org/ and maurolepore/
+* Describe real steps
+* Add screenshots
+* Translate to spanish
+* Record video and add link
+
+
+
+### [\@eliocamp](https://github.com/eliocamp) (contribuidor)
 
 * Fork the source repository and check out a local copy, manually or with
 
@@ -39,7 +43,7 @@ pr_init()
 pr_push()
 ```
 
-### Riva (administradora)
+### [\@rivaquiroga](https://github.com/rivaquiroga) (administradora)
 
 * Download PR locally to experiment with it
 
@@ -59,7 +63,7 @@ Merge the PR, and delete the local branch
 pr_finish() 
 ```
 
-### Elio (contribuidor)
+### [\@eliocamp](https://github.com/eliocamp) (contribuidor)
 
 The maintainer accepted the PR. Close and delete the PR branch.
 
