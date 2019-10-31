@@ -34,8 +34,6 @@ Inspirado en los datos de [Bicicletas de Buenos Aires (#58)](https://github.com/
 
 
 
-
-
 ## [\@eliocamp](https://github.com/eliocamp) (contribuidor)
 
 Bifurca el repositorio fuente, y chequea una copia local (a mano)
@@ -100,8 +98,6 @@ pr_push()
 
 
 
-
-
 ## [\@rivaquiroga](https://github.com/rivaquiroga) (administradora)
 
 Usando el paquete usethis, descarga la PR
@@ -140,9 +136,6 @@ pr_finish()
 ```
 
 <img src="https://i.imgur.com/tHCOaNz.png" align="center" width=760/>
-
-
-
 
 
 
