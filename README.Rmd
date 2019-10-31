@@ -1,3 +1,7 @@
+---
+output: github_document
+---
+
 ## Ayuda para solicitudes de fusión en GitHub  
 
 [_Helpers for GitHub pull requests (PR)_](https://usethis.r-lib.org/reference/pr_init.html)  

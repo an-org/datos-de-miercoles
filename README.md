@@ -1,187 +1,157 @@
-## Ayudantes para solicitudes de fusión en GitHub  
 
-[_Helpers for GitHub pull requests (PR)_](https://usethis.r-lib.org/reference/pr_init.html)  
+## Ayuda para solicitudes de fusión en GitHub
 
---
+[*Helpers for GitHub pull requests
+(PR)*](https://usethis.r-lib.org/reference/pr_init.html)
+
+–
 
 [Mauro Lepore](https://twitter.com/mauro_lepore)
 
---
+–
 
 ### Repositorio: **<http://bit.ly/ayuda-pr>**
 
-
-
 # [Licencia](https://github.com/an-org/datos-de-miercoles/blob/master/LICENCE)
 
-> Copyright 2019  R4DS-en Español (cienciadedatos) Comunidad online 
+> Copyright 2019 R4DS-en Español (cienciadedatos) Comunidad online
 
-> Se concede permiso ... a utilizar el Software sin restricción, ...sujeto a las siguientes condiciones:
+> Se concede permiso … a utilizar el Software sin restricción, …sujeto a
+> las siguientes condiciones:
 
-> Este aviso se incluirán en todas las copias ...
+> Este aviso se incluirán en todas las copias …
 
-> EL SOFTWARE SE PROPORCIONA "COMO ESTÁ", SIN GARANTÍA DE NINGÚN TIPO ...
-
-
+> EL SOFTWARE SE PROPORCIONA “COMO ESTÁ”, SIN GARANTÍA DE NINGÚN TIPO …
 
 ## Contribuyendo a [Datos de miercoles](https://github.com/cienciadedatos/datos-de-miercoles/pull/58)
 
-Inspirado en los datos de [Bicicletas de Buenos Aires (#58)](https://github.com/cienciadedatos/datos-de-miercoles/pull/58), contribuidos por [\@eliocamp](https://github.com/eliocamp), y administrados por [\@rivaquiroga](https://github.com/rivaquiroga).
+Inspirado en los datos de [Bicicletas de Buenos Aires
+(\#58)](https://github.com/cienciadedatos/datos-de-miercoles/pull/58),
+contribuidos por [@eliocamp](https://github.com/eliocamp), y
+administrados por [@rivaquiroga](https://github.com/rivaquiroga).
 
---
+–
 
 <img src="https://i.imgur.com/74axHZu.png" align="center" width=760/>
 
+## [@eliocamp](https://github.com/eliocamp) (contribuidor)
 
-
-## [\@eliocamp](https://github.com/eliocamp) (contribuidor)
-
-Bifurca el repositorio fuente, y chequea una copia local, a mano
+Bifurca el repositorio fuente, y chequea una copia local (a mano)
 
 <img src="https://i.imgur.com/6BuhWV6.png" align="center" width=760/>
 
-## [\@eliocamp](https://github.com/eliocamp) (contribuidor)
+## [@eliocamp](https://github.com/eliocamp) (contribuidor)
 
-Bifurca el repositorio fuente, y chequea una copia local, a mano
+Bifurca el repositorio fuente, y chequea una copia local (a mano)
 
 <img src="https://i.imgur.com/YDkkx6q.png" align="center" width=760/>
 
-## [\@eliocamp](https://github.com/eliocamp) (contribuidor)
+## [@eliocamp](https://github.com/eliocamp) (contribuidor)
 
-Bifurca el repositorio fuente, y chequea una copia local, a mano
+Bifurca el repositorio fuente, y chequea una copia local (a mano)
 
 <img src="https://i.imgur.com/cgVQAyZ.png" align="center" width=760/>
 
+## [@eliocamp](https://github.com/eliocamp) (contribuidor)
 
+Bifurca el repositorio fuente, y chequea una copia local (usethis)
 
-## [\@eliocamp](https://github.com/eliocamp) (contribuidor)
+    library(usethis)
+    create_from_github(owner/repo)
 
-Bifurca el repositorio fuente, y chequea una copia local, con usethis
+## [@eliocamp](https://github.com/eliocamp) (contribuidor)
 
-```
-library(usethis)
-create_from_github(owner/repo)
-```
+Usando el paquete usethis, crea una rama para la PR
 
-## [\@eliocamp](https://github.com/eliocamp) (contribuidor)
+    library(usethis)
+    
+    # Datos de bicicletas en Buenos Aires (cienciadedatos/datos-de-miercoles#55)
+    pr_init("55_bicicletas-en-ba")
 
-Usa el paquete usethis
+–
 
-```
-library(usethis)
-```
+<img src="https://i.imgur.com/8wjSn4d.png" align="center" width=760/>
 
-Crea una rama para la PR
+## [@eliocamp](https://github.com/eliocamp) (contribuidor)
 
-```
-# Datos de bicicletas en Buenos Aires (cienciadedatos/datos-de-miercoles#55)
-pr_init("55_bicicletas-en-ba")
-```
+Agrega y describe datos de bicicletas y estaciones
 
+<img src="https://i.imgur.com/Kzcfgks.png" align="center" width=760/>
 
+## [@eliocamp](https://github.com/eliocamp) (contribuidor)
 
-## [\@eliocamp](https://github.com/eliocamp) (contribuidor)
+Empuja la PR a GitHub, y abre una pagina web para iniciar la PR
 
-Trabajando localmente, hace un commit que agrega datos y  archivos:
+    pr_push()
 
-* `datos/2019/2019-08-28/README.md`
-* `datos/2019/2019-08-28/bicicletas.csv`
-* `datos/2019/2019-08-28/estaciones.csv`
+<img src="https://i.imgur.com/cInDkah.png" align="center" width=760/>
 
-## [\@eliocamp](https://github.com/eliocamp) (contribuidor)
+–
 
-Empuja la rama local a GitHub, y abre una pagina web para iniciar la PR
+<img src="https://i.imgur.com/7pdh9ri.png" align="center" width=760/>
 
-```
-pr_push()
-```
+## [@rivaquiroga](https://github.com/rivaquiroga) (administradora)
 
+Usando el paquete usethis, descarga la PR
 
+    library(usethis)
+    pr_fetch(58)
 
-## [\@rivaquiroga](https://github.com/rivaquiroga) (administradora)
+<img src="https://i.imgur.com/uE7ZvHm.png" align="center" width=760/>
 
-Usa el paquete usethis
+## [@rivaquiroga](https://github.com/rivaquiroga) (administradora)
 
-```
-library(usethis)
-```
+Edita la PR
 
-## [\@rivaquiroga](https://github.com/rivaquiroga) (administradora)
+<img src="https://i.imgur.com/UgIFeK2.png" align="center" width=760/>
 
-Descarga la PR localmente para revisarla
+## [@rivaquiroga](https://github.com/rivaquiroga) (administradora)
 
-```
-pr_fetch(58)
-```
+Empuja la PR de regreso a GitHub
 
-## [\@rivaquiroga](https://github.com/rivaquiroga) (administradora)
+    pr_push() 
 
-Edita la PR, hace un commit y lo empuja nuevamente a GitHub
+<img src="https://i.imgur.com/7ihDHpX.png" align="center" width=760/>
 
-```
-pr_push() 
-```
-
-## [\@rivaquiroga](https://github.com/rivaquiroga) (administradora)
+## [@rivaquiroga](https://github.com/rivaquiroga) (administradora)
 
 Funde la PR, y elimina la rama local
 
-```
-pr_finish() 
-```
+    pr_finish() 
 
-## [\@eliocamp](https://github.com/eliocamp) (contribuidor)
+<img src="https://i.imgur.com/tHCOaNz.png" align="center" width=760/>
 
-Usa el paquete usethis
-
-```
-library(usethis)
-```
+## [@eliocamp](https://github.com/eliocamp) (contribuidor)
 
 Elimina la rama de la PR
 
-```
-pr_finish() 
-```
-
-
+    pr_finish() 
 
 ## [Casos mas complejos](https://usethis.r-lib.org/reference/pr_init.html)
 
-Hay casos mas [casos mas complejos](https://usethis.r-lib.org/reference/pr_init.html), pero están fuera del alcance de esta demostración.
-
+Hay casos mas [casos mas
+complejos](https://usethis.r-lib.org/reference/pr_init.html), pero están
+fuera del alcance de esta demostración.
 
 ## Gracias
 
---
+–
 
 ### <https://twitter.com/mauro_lepore>
-
-
 
 # 
 
 Fin
 
-
-
 ## Acerca de este repositorio
 
-Este repositorio fue clonado de [Datos de miercoles](https://github.com/cienciadedatos/datos-de-miercoles) y simplificado para enfocarlo a datos específicos:
+Este repositorio fue clonado de [Datos de
+miercoles](https://github.com/cienciadedatos/datos-de-miercoles) y
+simplificado para enfocarlo a datos específicos:
 
-* El directorio `.git/` original fue reemplazado por uno nuevo.
-* Los directorios `meta/` y `recursos/` fueron eliminados.
-* Los subdirectorios de `datos/2019/` fueron eliminados, excepto
-  `datos/2019/2019-08-28/`.
-* El archivo `datos/2019/2019-08-28/bicicletas.csv` fue reducido a sus
-  primeras 500 filas.
-
-
-
-
-## TODO: 
-
-* Add screenshots
-* Record video and add link
-
-
+  - El directorio `.git/` original fue reemplazado por uno nuevo.
+  - Los directorios `meta/` y `recursos/` fueron eliminados.
+  - Los subdirectorios de `datos/2019/` fueron eliminados, excepto
+    `datos/2019/2019-08-28/`.
+  - El archivo `datos/2019/2019-08-28/bicicletas.csv` fue reducido a sus
+    primeras 500 filas.
