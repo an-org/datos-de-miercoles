@@ -112,9 +112,17 @@ library(usethis)
 pr_fetch(58)
 ```
 
+<img src="https://i.imgur.com/uE7ZvHm.png" align="center" width=760/>
+
 ## [\@rivaquiroga](https://github.com/rivaquiroga) (administradora)
 
-Edita la PR, hace un commit y lo empuja nuevamente a GitHub
+Edita la PR
+
+<img src="https://i.imgur.com/UgIFeK2.png" align="center" width=760/>
+
+## [\@rivaquiroga](https://github.com/rivaquiroga) (administradora)
+
+Empuja la PR de regreso a GitHub
 
 ```
 pr_push() 
@@ -128,13 +136,14 @@ Funde la PR, y elimina la rama local
 pr_finish() 
 ```
 
+<img src="https://i.imgur.com/tHCOaNz.png" align="center" width=760/>
+
+
+
+
+
+
 ## [\@eliocamp](https://github.com/eliocamp) (contribuidor)
-
-Usa el paquete usethis
-
-```
-library(usethis)
-```
 
 Elimina la rama de la PR
 
