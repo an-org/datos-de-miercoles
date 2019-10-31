@@ -1,5 +1,5 @@
 # Ayudantes para solicitudes de fusión en GitHub  
-[_Helpers for GitHub pull requests (usethis)_](https://usethis.r-lib.org/reference/pr_init.html)  
+[_Helpers for GitHub pull requests (PR)_](https://usethis.r-lib.org/reference/pr_init.html)  
 
 [\@mauro_lepore](https://twitter.com/mauro_lepore)
 
@@ -41,15 +41,14 @@ library(usethis)
 * Bifurca el repositorio fuente, y chequea una copia local
 
 ```
-# Demuestro como hacerlo manualmente, pero tambien puede hacerse con
-usethis::create_from_github(owner/repo)
+# Puede hacerse manualmente, o con:
+create_from_github(owner/repo)
 ```
 
-* Crea una rama para la PR
+* Crea una rama para la PR. Usa el numero de issue (si existe) como prefijo
 
 ```
-# Datos de bicicletas en Buenos Aires #55
-# https://github.com/cienciadedatos/datos-de-miercoles/issues/55
+# Datos de bicicletas en Buenos Aires (cienciadedatos/datos-de-miercoles#55)
 pr_init("55_bicicletas-en-ba")
 ```
 
@@ -72,13 +71,13 @@ pr_push()
 library(usethis)
 ```
 
-* Descarga la PR localmente para revisarla y editarla
+* Descarga la PR localmente para revisarla
 
 ```
 pr_fetch(58)
 ```
 
-* Hace cambios (commits) y los empuja nuevamente a GitHub
+* Edita la PR, hace un commit y lo empuja nuevamente a GitHub
 
 ```
 pr_push() 
@@ -98,7 +97,7 @@ pr_finish()
 library(usethis)
 ```
 
-* Cierra y elimina la rama asociada a la PR
+* Elimina la rama de la PR
 
 ```
 pr_finish() 
