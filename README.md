@@ -3,17 +3,20 @@
 
 [\@mauro_lepore](https://twitter.com/mauro_lepore)
 
-## Ejemplo: Contribuyendo a [cienciadedatos/datos-de-miercoles](https://github.com/cienciadedatos/datos-de-miercoles/pull/58)
+## Contribuyendo a [cienciadedatos/datos-de-miercoles](https://github.com/cienciadedatos/datos-de-miercoles/pull/58)
 
-Simulo la contribucion (simplificada) de [Bicicletas de Buenos Aires (#58)](https://github.com/cienciadedatos/datos-de-miercoles/pull/58) de [\@eliocamp](https://github.com/eliocamp), administrada por [\@rivaquiroga](https://github.com/rivaquiroga).
+Inspirado en la contribucion de [Bicicletas de Buenos Aires (#58)](https://github.com/cienciadedatos/datos-de-miercoles/pull/58) de [\@eliocamp](https://github.com/eliocamp), administrada por [\@rivaquiroga](https://github.com/rivaquiroga).
 
 ![](https://i.imgur.com/74axHZu.png)
 
+Real > Demostracion:
 
+* [cienciadedatos/datos-de-miercoles](https://github.com/cienciadedatos/datos-de-miercoles) > [an-org/datos-de-miercoles](https://github.com/an-org/datos-de-miercoles)
+* [\@eliocamp](https://github.com/eliocamp) (contribuidor) > \@maurolepore
+* [\@rivaquiroga](https://github.com/rivaquiroga) (administradora) > \@maurolepore
 
 TODO: 
 
-* Add links to an-org/ and maurolepore/
 * Describe real steps
 * Add screenshots
 * Translate to spanish
