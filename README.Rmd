@@ -1,4 +1,4 @@
-## Ayudantes para solicitudes de fusión en GitHub  
+## Ayuda para solicitudes de fusión en GitHub  
 
 [_Helpers for GitHub pull requests (PR)_](https://usethis.r-lib.org/reference/pr_init.html)  
 
@@ -38,25 +38,25 @@ Inspirado en los datos de [Bicicletas de Buenos Aires (#58)](https://github.com/
 
 ## [\@eliocamp](https://github.com/eliocamp) (contribuidor)
 
-Bifurca el repositorio fuente, y chequea una copia local, a mano
+Bifurca el repositorio fuente, y chequea una copia local (a mano)
 
 <img src="https://i.imgur.com/6BuhWV6.png" align="center" width=760/>
 
 ## [\@eliocamp](https://github.com/eliocamp) (contribuidor)
 
-Bifurca el repositorio fuente, y chequea una copia local, a mano
+Bifurca el repositorio fuente, y chequea una copia local (a mano)
 
 <img src="https://i.imgur.com/YDkkx6q.png" align="center" width=760/>
 
 ## [\@eliocamp](https://github.com/eliocamp) (contribuidor)
 
-Bifurca el repositorio fuente, y chequea una copia local, a mano
+Bifurca el repositorio fuente, y chequea una copia local (a mano)
 
 <img src="https://i.imgur.com/cgVQAyZ.png" align="center" width=760/>
 
 ## [\@eliocamp](https://github.com/eliocamp) (contribuidor)
 
-Bifurca el repositorio fuente, y chequea una copia local, con usethis
+Bifurca el repositorio fuente, y chequea una copia local (usethis)
 
 ```
 library(usethis)
@@ -104,11 +104,10 @@ pr_push()
 
 ## [\@rivaquiroga](https://github.com/rivaquiroga) (administradora)
 
-Usando el paquete usethis, descarga la PR localmente para revisarla
+Usando el paquete usethis, descarga la PR
 
 ```
 library(usethis)
-
 pr_fetch(58)
 ```
 
@@ -186,13 +185,3 @@ Este repositorio fue clonado de [Datos de miercoles](https://github.com/cienciad
   `datos/2019/2019-08-28/`.
 * El archivo `datos/2019/2019-08-28/bicicletas.csv` fue reducido a sus
   primeras 500 filas.
-
-
-
-
-## TODO: 
-
-* Add screenshots
-* Record video and add link
-
-
