@@ -5,42 +5,60 @@
 
 ## Contribuyendo a [cienciadedatos/datos-de-miercoles](https://github.com/cienciadedatos/datos-de-miercoles/pull/58)
 
-Inspirado en la contribucion de [Bicicletas de Buenos Aires (#58)](https://github.com/cienciadedatos/datos-de-miercoles/pull/58) de [\@eliocamp](https://github.com/eliocamp), administrada por [\@rivaquiroga](https://github.com/rivaquiroga).
+Inspirado en la contribución de [Bicicletas de Buenos Aires (#58)](https://github.com/cienciadedatos/datos-de-miercoles/pull/58) de [\@eliocamp](https://github.com/eliocamp), administrada por [\@rivaquiroga](https://github.com/rivaquiroga).
 
 ![](https://i.imgur.com/74axHZu.png)
 
-Real > Demostracion:
+Real > Demostración:
 
 * [cienciadedatos/datos-de-miercoles](https://github.com/cienciadedatos/datos-de-miercoles) > [an-org/datos-de-miercoles](https://github.com/an-org/datos-de-miercoles)
 * [\@eliocamp](https://github.com/eliocamp) (contribuidor) > \@maurolepore
 * [\@rivaquiroga](https://github.com/rivaquiroga) (administradora) > \@maurolepore
 
+
+
+
+
+
 TODO: 
 
-* Describe real steps
 * Add screenshots
-* Translate to spanish
 * Record video and add link
+
+
+
 
 
 
 ### [\@eliocamp](https://github.com/eliocamp) (contribuidor)
 
-* Fork the source repository and check out a local copy, manually or with
+* Usa el paquete usethis
 
 ```
-create_from_github(owner/repo)
+library(usethis)
 ```
 
-* Create a branch for your PR (never from `master`)
+* Bifurca el repositorio fuente, y chequea una copia local
 
 ```
-pr_init()
+# Demuestro como hacerlo manualmente, pero tambien puede hacerse con
+usethis::create_from_github(owner/repo)
 ```
 
-* Work locally, making changes to files and checking them into git
+* Crea una rama para la PR
 
-* When ready, push local branch to GitHub, and open a webpage to initiate the PR
+```
+# Datos de bicicletas en Buenos Aires #55
+# https://github.com/cienciadedatos/datos-de-miercoles/issues/55
+pr_init("55_bicicletas-en-ba")
+```
+
+* Trabajando localmente, hace un commit que agrega datos y  archivos:
+    * `datos/2019/2019-08-28/README.md`
+    * `datos/2019/2019-08-28/bicicletas.csv`
+    * `datos/2019/2019-08-28/estaciones.csv`
+
+* Empuja la rama local a GitHub, y abre una pagina web para iniciar la PR
 
 ```
 pr_push()
@@ -48,19 +66,25 @@ pr_push()
 
 ### [\@rivaquiroga](https://github.com/rivaquiroga) (administradora)
 
-* Download PR locally to experiment with it
+* Usa el paquete usethis
 
 ```
-pr_fetch(<pr_number>)
+library(usethis)
 ```
 
-* Make changes and push them back to GitHub
+* Descarga la PR localmente para revisarla y editarla
+
+```
+pr_fetch(58)
+```
+
+* Hace cambios (commits) y los empuja nuevamente a GitHub
 
 ```
 pr_push() 
 ```
 
-Merge the PR, and delete the local branch
+* Funde la PR, y elimina la rama local
 
 ```
 pr_finish() 
@@ -68,13 +92,21 @@ pr_finish()
 
 ### [\@eliocamp](https://github.com/eliocamp) (contribuidor)
 
-The maintainer accepted the PR. Close and delete the PR branch.
+* Usa el paquete usethis
+
+```
+library(usethis)
+```
+
+* Cierra y elimina la rama asociada a la PR
 
 ```
 pr_finish() 
 ```
 
-More complex cases are outside the scope of this demo
+Hay [casos mas complejos](https://usethis.r-lib.org/reference/pr_init.html), pero están fuera del alcance de esta demostración.
+
+
 
 ---
 
