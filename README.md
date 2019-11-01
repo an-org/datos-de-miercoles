@@ -10,8 +10,7 @@
 
 –
 
-### Todo el material esta disponible en el repo <http://bit.ly/ayuda-pr>
-
+  - Todo disponible en <http://bit.ly/ayuda-pr>.
   - [Video de practica](https://youtu.be/O_9jdlgv2CM).
   - Presentacion en [.html](https://bookdown.org/maurolepore/ayuda-pr/)
     y
